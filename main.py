@@ -8,6 +8,3 @@ app = FastAPI()
 @app.get("/")
 def hello():
     return {"message": say_hello()}
-
-
-
